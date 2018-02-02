@@ -51,10 +51,13 @@ public class Product {
         return description;
     }
 
-    public void setBrande(String brande) {
-        this.brande = brande;
+    public void setDescription(String description) {
+        this.description = description;
     }
     
+    public String getBrande() {
+        return brande;
+    }
 
     public void setBrande(String brande) {
         this.brande = brande;
