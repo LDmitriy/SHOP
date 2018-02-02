@@ -12,6 +12,8 @@ public class Product {
     private String productName;
     private String productCategory;
     private String description;
+    private String brande;
+    
 
     public int getProductId() {
         return productId;
@@ -49,8 +51,13 @@ public class Product {
         return description;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setBrande(String brande) {
+        this.brande = brande;
+    }
+    
+
+    public void setBrande(String brande) {
+        this.brande = brande;
     }
     
     
